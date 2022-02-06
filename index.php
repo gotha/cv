@@ -26,7 +26,7 @@ if (empty($data)) {
                         <div class="icon">
                             <img src="img/work.png" alt="" />
                         </div>
-                        <h1>Projects</h1>
+                        <h1>Work</h1>
                         <div class="clean"></div>
                     </div>
 
@@ -106,7 +106,7 @@ if (empty($data)) {
                 </div>
 
                 <br /> <br /> <br />
-                <div class="listing">
+                <div class="listing personal">
                     <div class="head">
                         <div class="icon">
                             <img src="img/person.png" alt="" />

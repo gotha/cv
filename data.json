@@ -46,9 +46,9 @@
       "name": "Team Lead / Web developer - Comstream AB",
       "place": "Sofia Bulgaria / Stockholm, Sweden",
       "dates": "Nov 2012 - June 2016",
-      "descr": "Working on mupltiple web and mobile project in the markeint industry.<br /><br /> Technologies: PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
+      "descr": "Working on mupltiple web and mobile project in the marketint industry.<br /><br /> Technologies: PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
       "color": "blue",
-      "height": "165"
+      "height": "140"
     },
     {
       "name": "Senior Developer / Team Lead - Xoomworks",
@@ -56,7 +56,7 @@
       "dates": "Jule 2016 - Nov 2018",
       "descr": "Developing and maintaining web applications and microservices in php, JS, NodeJS, GoLang. <br /> <br /> Technologies: Go, JS, AWS, K8s, Docker, Lambda, Jenkins",
       "color": "green",
-      "height": "180"
+      "height": "150"
     },
     {
       "name": "Head Of Technology - Xoomworks",

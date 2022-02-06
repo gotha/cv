@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    width: 560px;
+    width: 960px;
     display: block;
     margin: 0px auto;
     background-color: #fff;
@@ -19,10 +19,10 @@ body {
     padding: 10px;
 }
 #leftPanel {
-    width: 360px;
+    width: 610px;
 }
 #rightPanel {
-    width: 160px;
+    width: 310px;
     background-color: #f6f6f6;
 }
 .clean {
@@ -34,7 +34,7 @@ body {
 }
 
 #pic img {
-    width: 120px;
+    width: 240px;
     border-radius: 50%;
     margin: 20px auto;
     display: block;
@@ -58,7 +58,8 @@ body {
 .listing .head .icon {
     display: block;
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 .listing .head .icon img {
     width: 20px;
@@ -66,7 +67,7 @@ body {
 .listing .head h1 {
     display: block;
     float: left;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0px;
     color: #4e5051;
 }
@@ -77,7 +78,7 @@ body {
 }
 
 .listing .item .timeline {
-    margin-left: -20px;
+    margin-left: -22px;
     display: block;
     float: left;
     height: 100%;
@@ -110,16 +111,21 @@ body {
 .listing .item .data {
     display: block;
     float: left;
+    margin-left: 5px;
 }
 
 .listing .item .name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 5px;
+    display: block;
 }
 .listing .item .name.casual {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 19px;
+    margin-left: 2px;
 }
 .listing .item .meta {
     font-size: 12px;
@@ -153,6 +159,10 @@ body {
     padding: 5px 0;
 }
 
+.listing .personal .point {
+  margin-right: 5px;
+}
+
 #rightPanel {
 
 }
@@ -173,18 +183,17 @@ body {
 #rightPanel .infoPanel .head .title {
     float: left;
     display: block;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 5px;
 }
 #rightPanel .infoPanel .head .icon img {
     width: 20px;
 }
-#rightPanel .infoPanel .head .title {
-    font-size: 18px;
-    line-height: 20px;
-    margin-left: 5px;
-}
 #rightPanel .infoPanel .content {
     margin-left: 0px;
-    width: 170px;
+    width: 100%;
+    line-height: 20px;
 }
 
 .languages .lang {
