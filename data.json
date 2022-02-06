@@ -1,0 +1,82 @@
+{
+  "education": [
+    {
+      "name": "German Language School - Friedrich Schiller",
+      "place": "Ruse, Bulgaria",
+      "dates": "1995 - 2007",
+      "descr": "",
+      "color": "green",
+      "height": "80"
+    },
+    {
+      "name": "Plovdiv University Paisii Hilendarski",
+      "place": "Plovdiv, Bulgaria",
+      "dates": "2007 - ",
+      "descr": "Faculty of Mathematics and Informatics - IT ",
+      "color": "blue",
+      "height": "80"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web Development - AdminCorp",
+      "place": "Plovdiv, Bulgaria",
+      "dates": "Sep 2009 - April 2010",
+      "descr": "Several projects - small websites <br /> <br /> Technologies: PHP, MySQL, JavaScript, jQuery, CSS",
+      "color": "orange",
+      "height": "110"
+    },
+    {
+      "name": "Tech lead and Co-Founder - 42Soft",
+      "place": "Plovdiv, Bulgaria",
+      "dates": "April 2010 - June 2012",
+      "descr": "Browser MMO strategy game - Thunderwar. Working as a team lead and system architect I was managing team of developers and visual artists. <br /><br /> Technologies: PHP, MySQL, JavaScript, jQuery, CSS, custom MVC framework, custom message queue server<br/><br/>",
+      "color": "red",
+      "height": "170"
+    },
+    {
+      "name": "Web Developer - Sharetronix",
+      "place": "Plovdiv, Bulgaria",
+      "dates": "June 2012 - Oct 2012",
+      "descr": "Creating Plugin Architecture for Sharetronix- Open Source Social Media Platform and creating the online store for plugins. <br /> <br /> Technologies: PHP, MySQL",
+      "color": "green",
+      "height": "150"
+    },
+    {
+      "name": "Team Lead / Web developer - Comstream AB",
+      "place": "Sofia Bulgaria / Stockholm, Sweden",
+      "dates": "Nov 2012 - June 2016",
+      "descr": "Working on mupltiple web and mobile project in the markeint industry.<br /><br /> Technologies: PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
+      "color": "blue",
+      "height": "165"
+    },
+    {
+      "name": "Senior Developer / Team Lead - Xoomworks",
+      "place": "Sofia, Bulgaria",
+      "dates": "Jule 2016 - Nov 2018",
+      "descr": "Developing and maintaining web applications and microservices in php, JS, NodeJS, GoLang. <br /> <br /> Technologies: Go, JS, AWS, K8s, Docker, Lambda, Jenkins",
+      "color": "green",
+      "height": "180"
+    },
+    {
+      "name": "Head Of Technology - Xoomworks",
+      "place": "Sofia, Bulgaria",
+      "dates": "Nov 2019 - ",
+      "descr": "Developing software, leading teams, managing people, coaching senior teammates. Organising trainings, conferences, hackathons. Building new products. <br /> <br /> Technologies: Go, JS, AWS, K8s, Docker Swarm",
+      "color": "green",
+      "height": "140"
+    }
+  ],
+  "personal": [
+      "Arduino ethusiast && Raspberry PI gadgeteer",
+      "Casual cyclist",
+      "Open Source aficionado",
+      "Very bad but extravagant skateboarder",
+      "Amateur linguist",
+      "Retro gamer",
+      "Mechanical keyboard sound tester",
+      "Not-yet-poisoned-a-person cook",
+      "Short distance runner",
+      "Beer lover"
+  ]
+}
