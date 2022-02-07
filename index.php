@@ -40,7 +40,7 @@ if (empty($data)) {
                     <div class="item">
                         <div class="timeline <?=$proj->color;?>">
                             <div class="point"></div>
-                            <div class="line" style="height: <?=$proj->height;?>px"></div>
+                            <div class="line" style="height: 165px;"></div>
                         </div>
                         <div class="data">
                             <div class="name"> <?=$proj->name;?> </div>
@@ -80,7 +80,7 @@ if (empty($data)) {
                     <div class="item">
                         <div class="timeline <?php echo $edu->color;?>">
                             <div class="point"></div>
-                            <div class="line" style="height: 80px"></div>
+                            <div class="line" style="height: 95px"></div>
                         </div>
                         <div class="data">
                             <div class="name"> <?=$edu->name;?> </div>
@@ -105,7 +105,6 @@ if (empty($data)) {
 
                 </div>
 
-                <br /> <br /> <br />
                 <div class="listing personal">
                     <div class="head">
                         <div class="icon">
@@ -152,7 +151,7 @@ if (empty($data)) {
                     <div class="clean"></div>
                 </div>
                 <div class="content">
-                    www.hgeorgiev.com <br />
+					<a href="https://hgeorgiev.com/" target="_blank">www.hgeorgiev.com</a> <br />
                     h.georgiev@hotmail.com <br />
                     <br />
                     Sofia, Lozenets, Akatsia 2<br />
@@ -180,16 +179,20 @@ if (empty($data)) {
                     PHP <br />
                     Symfony, Zend Framework, CodeIgniter <br />
                     <br />
-					Amazon Web Services, Lambda, DynamoDB, EC2, ElasticBeanstalk, etc. <br />
+					Cloud <br />
+					Lambda, EC2, ECS, ElasticBeanstalk, SNS. <br />
+					Heroku <br />
+					Jenkins, CircleCI <br />
+					Splunk, Cloudwatch, Grafana <br />
 					<br />
 					SQS, Kafka <br />
 					<br />
 					ElasticSearch <br />
 					<br />
-					MySQL, MongoDB, Neo4j, SQL Server, SQLite<br />
-                    <br />
+					MySQL, Postgres, MongoDB, DynamoDB, Neo4j, SQLite<br />
+					<br />
                     Java <br />
-					Dropwizzard <br />
+					some Spring and Dropwizzard<br />
 					<br />
                     OSX, Linux, Windows, BSD <br />
 
@@ -197,7 +200,7 @@ if (empty($data)) {
                 </div>
             </div>
 
-            <div class="infoPanel" style="margin-top: 170px;">
+            <div class="infoPanel" style="margin-top: 10px;">
                 <div class="head">
                     <div class="icon">
                         <img src="img/lang.png" alt="" />
@@ -241,8 +244,7 @@ if (empty($data)) {
 
             <div class="infoPanel">
                 <div class="content">
-                
-                <div class="clean"></div>
+					<div class="clean"></div>
                 </div>
             </div>
         </div>

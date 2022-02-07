@@ -41,12 +41,12 @@ body {
 }
 #leftPanel h1.title {
     color: #555658;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 0px;
 }
 #leftPanel h3.subtitle {
     color: #9b9b9b;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 0px;
     margin-left: 1px;
 }
@@ -130,7 +130,7 @@ body {
 .listing .item .meta {
     font-size: 12px;
     margin: 5px 0px;
-    color: #c3c2c2;
+    color: #8fa6af;
 }
 .listing .item .place {
     display: block;
@@ -157,6 +157,8 @@ body {
     font-size: 14px;
     float: left;
     padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .listing .personal .point {
@@ -169,7 +171,7 @@ body {
 
 #rightPanel .infoPanel {
     width: 100%;
-    padding: 0 2px;
+    padding: 0 10px;
     font-size: 14px;
     margin-bottom: 50px;
 }
@@ -220,4 +222,8 @@ body {
     display: block;
     margin-left: 6px;
     color: #ccc
+}
+
+.content a {
+  color: #666;
 }
