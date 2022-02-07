@@ -10,7 +10,7 @@
     {
       "name": "Plovdiv University Paisii Hilendarski",
       "place": "Plovdiv, Bulgaria",
-      "dates": "2007 - ",
+      "dates": "2007",
       "descr": "Faculty of Mathematics and Informatics - IT ",
       "color": "blue"
     }
@@ -20,42 +20,42 @@
       "name": "Web Development - AdminCorp",
       "place": "Plovdiv, Bulgaria",
       "dates": "Sep 2009 - April 2010",
-      "descr": "Several projects - small websites <br /> <br /> Technologies: PHP, MySQL, JavaScript, jQuery, CSS",
+      "descr": "Several small websites <br /> <br /> Tech: PHP, MySQL, JavaScript, jQuery, CSS",
       "color": "green"
     },
     {
       "name": "Tech lead and Co-Founder - 42Soft",
       "place": "Plovdiv, Bulgaria",
       "dates": "April 2010 - June 2012",
-      "descr": "Browser MMO strategy game - Thunderwar. Working as a team lead and system architect I was managing team of developers and visual artists. <br /><br /> Technologies: PHP, MySQL, JS, jQuery, CSS, MVC, MQ, WebSockets",
+      "descr": "Browser MMO strategy game - Thunderwar. Working as a team lead and system architect I was managing team of developers and visual artists. <br /><br /> Tech: PHP, MySQL, JS, jQuery, CSS, MVC, MQ, WebSockets",
       "color": "red"
     },
     {
       "name": "Web Developer - Sharetronix",
       "place": "Plovdiv, Bulgaria",
       "dates": "June 2012 - Oct 2012",
-      "descr": "Creating Plugin Architecture for Sharetronix- Open Source Social Media Platform and creating the online store for plugins. <br /> <br /> Technologies: PHP, MySQL",
+      "descr": "Creating Plugin Architecture for Sharetronix- Open Source Social Media Platform and creating the online store for plugins. <br /> <br /> Tech: PHP, MySQL",
       "color": "green"
     },
     {
       "name": "Team Lead / Web developer - Comstream AB",
       "place": "Sofia Bulgaria / Stockholm, Sweden",
       "dates": "Nov 2012 - June 2016",
-      "descr": "Working on mupltiple web and mobile project in the marketint industry.<br /><br /> Technologies: PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
+      "descr": "Working on mupltiple web and mobile project in the marketint industry.<br /><br /> Tech: PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
       "color": "blue"
     },
     {
       "name": "Senior Developer / Team Lead - Xoomworks",
       "place": "Sofia, Bulgaria",
       "dates": "Jule 2016 - Nov 2018",
-      "descr": "Developing and maintaining web applications and microservices in php, JS, NodeJS, GoLang. <br /> <br /> Technologies: Go, JS, AWS, K8s, Docker, Lambda, Jenkins",
+      "descr": "Developer in various web related projects. Worked closely with PM and POs. <br /> <br /> Tech: Go, JS, AWS, K8s, Docker, Lambda, Jenkins",
       "color": "orange"
     },
     {
       "name": "Head Of Technology - Xoomworks",
       "place": "Sofia, Bulgaria",
       "dates": "Nov 2019 - ",
-      "descr": "Developing software, leading teams, managing people, coaching senior teammates. Organising trainings, conferences, hackathons. Building new products. <br /> <br /> Technologies: Go, JS, AWS, K8s, Docker Swarm",
+      "descr": "Software development, leading teams, managing people, coaching senior teammates. Organising trainings, conferences, hackathons. Building new products. <br /> <br /> Tech: Go, JS, AWS, K8s, Docker Swarm",
       "color": "orange"
     }
   ],
