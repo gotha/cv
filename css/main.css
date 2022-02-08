@@ -155,10 +155,22 @@ body {
 
 .listing .item .descr {
     font-size: 14px;
+    line-height: 18px;
+    float: left;
+    padding: 5px 0;
+    display: block;
+    width: 100%;
+}
+
+.listing .item .tech {
+    font-size: 14px;
     float: left;
     padding: 5px 0;
     margin-top: 10px;
-    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
 }
 
 .listing .personal .point {

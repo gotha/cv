@@ -40,7 +40,7 @@ if (empty($data)) {
                     <div class="item">
                         <div class="timeline <?=$proj->color;?>">
                             <div class="point"></div>
-                            <div class="line" style="height: 165px;"></div>
+							<div class="line" style="height: <?=$proj->height ?: 165; ?>px"></div>
                         </div>
                         <div class="data">
                             <div class="name"> <?=$proj->name;?> </div>
@@ -56,7 +56,10 @@ if (empty($data)) {
 
                             <div class="descr">
                                 <?=$proj->descr;?>
-                            </div>
+							</div>
+							<div class="tech">
+								<?=$proj->tech; ?>
+							</div>
                             <div class="clean"></div>
                         </div>
                         <div class="clean"></div>
