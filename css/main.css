@@ -178,7 +178,7 @@ body {
 }
 
 #rightPanel {
-
+  min-height: 1750px;
 }
 
 #rightPanel .infoPanel {
