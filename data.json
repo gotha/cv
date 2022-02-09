@@ -46,17 +46,17 @@
       "name": "Team Lead / Web developer - Comstream AB",
       "place": "Sofia Bulgaria / Stockholm, Sweden",
       "dates": "Nov 2012 - June 2016",
-      "descr": "Leading multinational team in Nordic marketing company, I worked on several project related to lead generation, aggregation, partner and customer communication.",
-      "tech": "PHP, MySQL, CQRS, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
+      "descr": "Leading multinational team in Nordic marketing company. <br /> I worked on several project related to lead generation, aggregation, partner and customer communication.",
+      "tech": "PHP, MySQL, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
       "color": "blue",
-      "height": "140"
+      "height": "160"
     },
     {
       "name": "Senior Developer / Team Lead - Xoomworks",
       "place": "Sofia, Bulgaria",
       "dates": "Jule 2016 - Nov 2018",
-      "descr": "Developer in various web related projects. <br /> Worked closely with PM and POs to build new enterprise products and evolve content publishing platform for international newspaper. <br /> Serverless technologies. ",
-      "tech": "Go, JS, AWS, K8s, Docker, Lambda, Jenkins",
+      "descr": "Lead developer in various web related projects. <br /> Worked closely with PM and POs to build new enterprise products and evolve content publishing platform for international newspaper. <br /> Serverless technologies. ",
+      "tech": "Go, JS, AWS, K8s, Docker, Lambda, DynamoDB, Neo4j, MongoDB",
       "color": "orange",
       "height": "180"
     },
@@ -65,7 +65,7 @@
       "place": "Sofia, Bulgaria",
       "dates": "Nov 2019 - ",
       "descr": "Software development, leading teams, managing people, coaching senior teammates. <br />Building new products. <br /> Designing distributed systems and data pipelines. <br /> Organising trainings, conferences, hackathons.",
-      "tech": "Go, JS, AWS, K8s, Docker Swarm",
+      "tech": "Go, JS, AWS, K8s, Docker Swarm, Postgres",
       "color": "orange",
       "height": "178"
     }
