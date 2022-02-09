@@ -154,8 +154,10 @@ if (empty($data)) {
                     <div class="clean"></div>
                 </div>
                 <div class="content">
-					<a href="https://hgeorgiev.com/" target="_blank">www.hgeorgiev.com</a> <br />
-                    h.georgiev@hotmail.com <br />
+					<a href="https://hgeorgiev.com/" target="_blank">hgeorgiev.com</a> <br />
+					h.georgiev@hotmail.com <br />
+					<a href="https://github.com/gotha" target="_blank">github.com/gotha</a> <br />
+
                     <br />
                     Sofia, Lozenets, Akatsia 2<br />
                     +359886208872
