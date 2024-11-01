@@ -1,260 +1,86 @@
 <?php
-$data = json_decode(file_get_contents("data.json"));
+$data = json_decode(file_get_contents('data.json'), false);
 if (empty($data)) {
-    die("JSON error");
+    exit('JSON error');
 }
-
 ?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hristo Georgiev</title>
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href="main.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="container">
-        <div id="leftPanel" class="mainPanel">
-            <div class="content">
-                <h1 class="title">Hristo Georgiev</h1>
-                <h3 class="subtitle">Techie</h3>
 
+<div class="wrapper clearfix">
+  <div class="left">
 
-                <div class="listing">
-                    <div class="head">
-                        <div class="icon">
-                            <img src="img/work.png" alt="" />
-                        </div>
-                        <h1>Work</h1>
-                        <div class="clean"></div>
-                    </div>
+    <div class="name-hero">
+	  <div class="me-img"></div>
 
-                    <div class="clean" style="height: 10px"></div>
+      <div class="name-text">
+		<h1>
+			<?= explode(' ', $data->info->name)[0]; ?>
+			<em>
+			<?= explode(' ', $data->info->name)[1] ?? ''; ?>
+			</em>
+		</h1>
+        <p><?=$data->info->address; ?></p>
+        <p><?=$data->info->email; ?></p>
+        <p><?=$data->info->phone; ?></p>
 
-                    <?php $projects = $data->projects;
-                       $num_projects = count($projects);
-                    ?>
-                    <?php for ($i=$num_projects-1; $i >= 0; $i--): ?>
-                    <?php $proj = $projects[$i]; ?>
-                    <div class="item">
-                        <div class="timeline <?=$proj->color;?>">
-                            <div class="point"></div>
-							<div class="line" style="height: <?=$proj->height ?: 165; ?>px"></div>
-                        </div>
-                        <div class="data">
-                            <div class="name"> <?=$proj->name;?> </div>
-                            <div class="meta">
-                                <div class="place">
-                                    <?=$proj->place;?>
-                                </div>
-                                <div class="date">
-                                    <?=$proj->dates;?>
-                                </div>
-                                <div class="clean"></div>
-                            </div>
-
-                            <div class="descr">
-                                <?=$proj->descr;?>
-							</div>
-							<div class="tech">
-								<?=$proj->tech; ?>
-							</div>
-                            <div class="clean"></div>
-                        </div>
-                        <div class="clean"></div>
-                    </div>
-                    <?php endfor; ?>
-
-                </div>
-
-                <div class="listing">
-                    <div class="head">
-                        <div class="icon">
-                            <img src="img/edu.png" alt="" />
-                        </div>
-                        <h1>Education</h1>
-                        <div class="clean"></div>
-                    </div>
-
-                    <div class="clean" style="height: 10px"></div>
-
-                    <?php foreach ($data->education as $edu): ?>
-                    <div class="item">
-                        <div class="timeline <?php echo $edu->color;?>">
-                            <div class="point"></div>
-                            <div class="line" style="height: 95px"></div>
-                        </div>
-                        <div class="data">
-                            <div class="name"> <?=$edu->name;?> </div>
-                            <div class="meta">
-                                <div class="place">
-                                    <?=$edu->place;?>
-                                </div>
-                                <div class="date">
-                                    <?=$edu->dates; ?>
-                                </div>
-                                <div class="clean"></div>
-                            </div>
-
-                            <div class="descr">
-                                <?=$edu->descr;?>
-                            </div>
-                            <div class="clean"></div>
-                        </div>
-                        <div class="clean"></div>
-                    </div>
-                    <?php endforeach; ?>
-
-                </div>
-
-                <div class="listing personal">
-                    <div class="head">
-                        <div class="icon">
-                            <img src="img/person.png" alt="" />
-                        </div>
-                        <h1>Personal information</h1>
-                        <div class="clean"></div>
-                    </div>
-
-                    <div class="clean" style="height: 10px"></div>
-
-                    <?php foreach ($data->personal as $p): ?>
-                    <div class="item">
-                        <div class="timeline">
-                            <div class="point"></div>
-                        </div>
-                        <div class="data">
-                            <div class="name casual"> <?=$p?> </div>
-                            <div class="clean"></div>
-                        </div>
-                        <div class="clean"></div>
-                    </div>
-                    <?php endforeach; ?>
-
-                </div>
-
-            </div>
-        </div>
-
-        </div>
-        <div id="rightPanel" class="mainPanel">
-
-            <div id="pic">
-                <img src="me.jpg" alt="Hristo Georgiev" />
-            </div>
-            <div class="infoPanel">
-                <div class="head">
-                    <div class="icon">
-                        <img src="img/contacts.png" alt="" />
-                    </div>
-                    <div class="title">
-                        Contacts
-                    </div>
-                    <div class="clean"></div>
-                </div>
-                <div class="content">
-					<a href="https://hgeorgiev.com/" target="_blank">hgeorgiev.com</a> <br />
-					h.georgiev@hotmail.com <br />
-					<a href="https://github.com/gotha" target="_blank">github.com/gotha</a> <br />
-
-                    <br />
-                    Sofia, Lozenets, Akatsia 2<br />
-                    +359886208872
-                </div>
-            </div>
-
-
-            <div class="infoPanel">
-                <div class="head">
-                    <div class="icon">
-                        <img src="img/skills.png" alt="" />
-                    </div>
-                    <div class="title">
-                        Skills
-                    </div>
-                    <div class="clean"></div>
-                </div>
-				<div class="content">
-					Go <br />
-					Kubernetes, Docker, Docker Compose, Docker Swarm <br />
-                    <br />
-                    NodeJS, ES6, TypeScript, React<br />
-					<br />
-                    PHP <br />
-                    Symfony, Zend Framework, CodeIgniter <br />
-                    <br />
-					Cloud <br />
-					Lambda, EC2, ECS, ElasticBeanstalk, SNS. <br />
-					Heroku <br />
-					Jenkins, CircleCI <br />
-					Splunk, Cloudwatch, Grafana <br />
-					<br />
-					SQS, Kafka <br />
-					<br />
-					ElasticSearch <br />
-					<br />
-					MySQL, Postgres, MongoDB, DynamoDB, Neo4j, SQLite<br />
-					<br />
-                    Java <br />
-					some Spring and Dropwizzard<br />
-					<br />
-                    OSX, Linux, Windows, BSD <br />
-
-
-                </div>
-            </div>
-
-            <div class="infoPanel" style="margin-top: 10px;">
-                <div class="head">
-                    <div class="icon">
-                        <img src="img/lang.png" alt="" />
-                    </div>
-                    <div class="title">
-                        Languages
-                    </div>
-                    <div class="clean"></div>
-                </div>
-                <div class="content">
-                    <div class="languages">
-                        <div class="lang">
-                            <div class="name">Bulgarian:</div>
-                            <div class="stars">
-                                <div class="earned"> * * * * *</div>
-                            </div>
-                        </div>
-                        <div class="lang">
-                            <div class="name">English:</div>
-                            <div class="stars">
-                                <div class="earned"> * * * * *</div>
-                            </div>
-                        </div>
-                        <div class="lang">
-                            <div class="name">German:</div>
-                            <div class="stars">
-                                <div class="earned"> * *</div>
-                                <div class="todo"> * * * </div>
-                            </div>
-                        </div>
-                        <div class="lang">
-                            <div class="name">Swedish:</div>
-                            <div class="stars">
-                                <div class="earned"> * </div>
-                                <div class="todo"> * * * *</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="infoPanel">
-                <div class="content">
-					<div class="clean"></div>
-                </div>
-            </div>
-        </div>
-        <div class="clean"></div>
+		<br />
+		<br />
+		<ul class="links">
+		<? foreach($data->links as $link): ?>
+			<li>
+				<a href="<?=$link;?>" target="_blank">
+					<?=str_replace(['https://', 'http://', 'www.'], '', $link);?>
+				</a>
+			</li>
+		<? endforeach ?>
+		</ul>
+	  </div>
     </div>
 
-</body>
-</html>
+  </div>
+  <div class="right">
+
+    <div class="inner">
+      <section>
+		<? foreach (array_reverse($data->projects) as $proj): ?>
+			<p>
+				<h1><?=$proj->name; ?></h1>
+				<span class="dates minor"><?=$proj->dates;?></span>
+				<span class="location minor"><?=$proj->place;?></span>
+				</p>
+			<p>
+				<?=$proj->descr; ?>
+			</p>
+		<? endforeach ?>
+	  </section>
+      <section>
+		<ul class="skill-set">
+		  <? foreach ($data->skills as $skill): ?>
+		  <li> <?=$skill; ?></li>
+		  <? endforeach ?>
+        </ul>
+      </section>
+      <section>
+		<? foreach ($data->education as $edu): ?>
+		<p> <?=$edu->name; ?> | <em> <?=$edu->descr; ?> <?=$edu->dates; ?> </em>
+		<? endforeach ?>
+      </section>
+      <section>
+		<ul class="skill-set">
+		  <? foreach ($data->hobbies as $hobby): ?>
+		  <li> <?=$hobby; ?></li>
+		  <? endforeach ?>
+        </ul>
+      </section>
+    </div>
+
+  </div>
+
+</div>

@@ -2,83 +2,100 @@
   "education": [
     {
       "name": "German Language School - Friedrich Schiller",
-      "place": "Ruse, Bulgaria",
+      "place": "Ruse",
       "dates": "1995 - 2007",
-      "descr": "",
-      "color": "green"
+      "descr": ""
     },
     {
       "name": "Plovdiv University Paisii Hilendarski",
-      "place": "Plovdiv, Bulgaria",
-      "dates": "2007",
-      "descr": "Faculty of Mathematics and Informatics - IT ",
-      "color": "blue"
+      "place": "Plovdiv",
+      "dates": "2007 - ",
+      "descr": "Faculty of Mathematics and Informatics - IT "
     }
   ],
   "projects": [
     {
-      "name": "Web Developer - AdminCorp",
-      "place": "Plovdiv, Bulgaria",
-      "dates": "Sep 2009 - April 2010",
-      "descr": "Developing e-commerse websites",
-      "tech": "PHP, MySQL, JavaScript, jQuery, CSS",
-      "color": "green",
-      "height": "120"
+      "name": "Web Developer",
+      "place": "Ruse/Plovdiv",
+      "dates": "2006 - 2010",
+      "descr": "While in high school I started doing websites with PHP, which turned into a pretty good freelance gig. Worked for e-commerse company for 8 months and another 4 for an open source business focused social network, multiple project based short term contracts.",
+      "tech": "PHP, MySQL, JavaScript, jQuery, CSS"
     },
     {
-      "name": "Tech lead and Co-Founder - 42Soft",
-      "place": "Plovdiv, Bulgaria",
+      "name": "Technical Co-Founder - 42Soft",
+      "place": "Plovdiv",
       "dates": "April 2010 - June 2012",
-      "descr": "Browser MMO strategy game - Thunderwar. <br /> Working as a technical lead and manager, with a team of engineers, designers and visual artists we created impressive (for its time) browser game.",
-      "tech": "PHP, MySQL, JS, jQuery, CSS, MVC, MQ, WebSockets",
-      "color": "red"
+      "descr": "MMO strategy game. <br /> System architecture, managing team of software engineers, designers, visual artists and translators. <br /> Community building, ads management and basically everything that is needed for a start-up.",
+      "tech": "PHP, MySQL, JS, jQuery, CSS, MQ, WebSockets"
     },
     {
-      "name": "Web Developer - Sharetronix",
-      "place": "Plovdiv, Bulgaria",
-      "dates": "June 2012 - Oct 2012",
-      "descr": "Creating Plugin Architecture for Sharetronix- Open Source Social Media Platform and creating the online store for plugins.",
-      "tech": "PHP, MySQL",
-      "color": "green",
-      "height": "145"
-    },
-    {
-      "name": "Team Lead / Web developer - Comstream AB",
-      "place": "Sofia Bulgaria / Stockholm, Sweden",
+      "name": "Senior Web Developer - Comstream AB",
+      "place": "Sofia / Stockholm",
       "dates": "Nov 2012 - June 2016",
-      "descr": "Leading multinational team in Nordic marketing company. <br /> I worked on several project related to lead generation, aggregation, partner and customer communication.",
-      "tech": "PHP, MySQL, AWS EBS, Twitter Bootstrap, jQuery, phonegap",
-      "color": "blue",
-      "height": "160"
+      "descr": "Led multinational software team for a Nordic marketing company. <br />  Building and maintaining systems for lead generation, aggregation, partner and customer integrations <br /> Web and hybrid mobile apps",
+      "tech": "PHP, MySQL, AWS EBS, Twitter Bootstrap, jQuery, phonegap"
     },
     {
-      "name": "Senior Developer / Team Lead - Xoomworks",
-      "place": "Sofia, Bulgaria",
-      "dates": "Jule 2016 - Nov 2018",
-      "descr": "Lead developer in various web related projects. <br /> Worked closely with PM and POs to build new enterprise products and evolve content publishing platform for international newspaper. <br /> Serverless technologies. ",
-      "tech": "Go, JS, AWS, K8s, Docker, Lambda, DynamoDB, Neo4j, MongoDB",
-      "color": "orange",
-      "height": "180"
+      "name": "Software Engineer / Head Of Technology - Xoomworks",
+      "place": "Sofia",
+      "dates": "July 2016 - Apr 2022",
+      "descr": "Joined as Software Engineer, grew into a technical lead role focused on the entire software development lifecycle. Designing distributed systems and data pipelines.<br /> Managing people, teams, coaching senior engineers. <br /> Organising trainings, conferences, hackathons.",
+      "tech": "Go, JS, AWS, K8s, Docker Swarm, Postgres, Neo4j, MongoDB"
     },
     {
-      "name": "Head Of Technology - Xoomworks",
-      "place": "Sofia, Bulgaria",
-      "dates": "Nov 2019 - ",
-      "descr": "Software development, leading teams, managing people, coaching senior teammates. <br />Building new products. <br /> Designing distributed systems and data pipelines. <br /> Organising trainings, conferences, hackathons.",
-      "tech": "Go, JS, AWS, K8s, Docker Swarm, Postgres",
-      "color": "orange",
-      "height": "178"
+      "name": "Principal Software Engineer - Financial Times",
+      "place": "Sofia",
+      "dates": "Apr 2022 - Present",
+      "descr": "Led the B2B Engineering department's growth from 2 to 6 teams while maintaining enterprise accounts and developing new products for FT's Professional portfolio. <br /> <br /> Enhancing content with machine learning backed classification models to produce Analytics and Intelligence products. <br /> <br />We shipped an experiment for a new sitewide semantic search tool that turned into a <a href=\"https://www.theverge.com/2024/3/23/24106296/ask-ft-generative-ai-chatbot-answers-tool\"> conversational AI product</a> based on FT's knowledge graph.",
+      "tech": "Go, JS, TS, AWS, ECS/Fargate, Postgres, ElasticSearch, Python"
     }
   ],
-  "personal": [
-      "Arduino & Raspberry Pi enthusiast",
-      "Casual cyclist",
-      "Open Source aficionado",
-      "Very bad but extravagant skateboarder",
-      "Amateur linguist",
-      "Retro gamer",
-      "Mechanical keyboard sound tester",
-      "Not-yet-poisoned-a-person cook",
-      "Beer lover"
+  "info": {
+    "name": "Hristo Georgiev",
+    "email": "h.georgiev@hotmail.com",
+    "address": "Sofia, 1421",
+    "phone": "+359 (0)8862-08872"
+  },
+  "skills": [
+    "AWS",
+    "Kafka",
+    "NATS",
+    "SQS",
+    "k8s",
+    "ECS/Fargate",
+    "Docker",
+    "PostgreSQL",
+    "ElasticSearch",
+    "Neo4j",
+    "MongoDB",
+    "DynamoDB",
+    "Python",
+    "Go(lang)",
+    "JavaScript/TypeScript",
+    "NodeJS",
+    "Java",
+    "Spring",
+    "PHP",
+    "Symfony",
+    "CI/CD",
+    "Monitoring/ Telemetry",
+    "Microservices"
+  ],
+  "hobbies": [
+    "Low-altitude mountaineer",
+    "VIM guy",
+    "Casual cyclist / mountain biker",
+    "Open Source aficionado",
+    "Extravagant skateboarder",
+    "Amateur linguist",
+    "Retro gamer",
+    "Mechanical keyboards sound tester",
+    "Not-yet-poisoned-a-person cook",
+    "TDI owner"
+  ],
+  "links": [
+    "https://hgeorgiev.com",
+    "https://github.com/gotha",
+    "https://www.linkedin.com/in/hristo-georgiev-3343155"
   ]
 }
