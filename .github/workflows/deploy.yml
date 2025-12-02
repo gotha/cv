@@ -39,10 +39,16 @@ jobs:
         run: |
           nix develop --command python src/generate.py > index.html
 
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp me.jpg _site/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
   deploy:
     environment:

@@ -20,11 +20,6 @@
             python3Packages.pip
             python3Packages.virtualenv
           ];
-
-          shellHook = ''
-            echo "Python development environment activated"
-            echo "Python version: $(python --version)"
-          '';
         };
       });
 }

@@ -40,6 +40,5 @@ result-*
 .DS_Store
 Thumbs.db
 
-# Generated files (optional - uncomment if you don't want to track generated HTML)
-# index.html
+index.html
 
