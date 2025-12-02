@@ -1,0 +1,153 @@
+# Personal Information
+personal:
+  name: "Hristo Georgiev"
+  title: "Software Engineer & Engineering Manager"
+  location: "Sofia, Bulgaria"
+
+# Contact Information
+contact:
+  email: "hristo.georgiev.88@gmail.com"
+  phone: "+359 886 208 872"
+  linkedin: "https://www.linkedin.com/in/hristo-georgiev-3343155"
+  website: "https://hgeorgiev.com"
+
+# Professional Summary
+summary: |
+  Principal Software Engineer with over 15 years of experience in software development, cloud infrastructure, and AI services. 
+  Proven track record of leading engineering teams, architecting scalable microservices, developing products and delivering high-impact solutions across diverse industries including media, finance, and technology.
+  Expert in Go, Kubernetes, AWS/GCP, and modern DevOps practices. 
+  Experience with semantic web, knowledge graphs, RAG pipelines, hosting inference workloads, and building cloud managed services.
+  Currently leading AI Services development at Redis, previously Principal Engineer at Financial Times.
+
+# Work Experience
+experience:
+  - period: "January 2025 - Present"
+    title: "Principal Software Engineer - AI Services"
+    company: "Redis"
+    location: "Sofia, Bulgaria"
+    responsibilities:
+      - Leading AI Services development and architecture at Redis
+      - Architecting and delivering scalable hosting infrasturucture for inference workloads in Redis Cloud
+      - Developing Redis semantic caching solution - cloud managed service, on-prem, SDKs
+  
+  - period: "April 2022 - January 2025"
+    title: "Principal Software Engineer - FT Pro"
+    company: "Financial Times"
+    location: "Sofia, Bulgaria"
+    responsibilities:
+      - Closely collaborated with product and design teams to deliver FT's first RAG solution - AskFT - https://ask.ft.com/
+      - Developed content processing pipeline with classifiers for Enterprise customers
+      - Pioneered GraphQL federation in the organization
+      - Managing people, hiring, recruitment framework, career progression ladder
+      - Grew FT Labs and Enterprise from 2 to 6 teams
+  
+  - period: "December 2019 - April 2022"
+    title: "Head Of Technology (Bulgaria)"
+    company: "Xoomworks Ltd"
+    location: "Sofia, Bulgaria"
+    responsibilities:
+      - Led technology operations and team management for Bulgarian office
+      - Managed technology guilds and developing local tallent
+  
+  - period: "December 2018 - August 2021"
+    title: "Team Lead - Financial Times"
+    company: "Xoomworks Ltd"
+    location: "Sofia, Bulgaria"
+    responsibilities:
+      - Tech lead and team lead for Financial Times projects
+      - Orchestrating content publishing pipeline on top of k8s with ~150 microservices - Go/Golang, Java, Python, Kubernetes, Helm, Kafka, AWS, ElasticSearch, MongoDB
+      - working with FT's Knowledge Graph - semanic web
+  
+  - period: "July 2016 - December 2018"
+    title: "Senior Developer"
+    company: "Xoomworks Ltd"
+    location: "Sofia, Bulgaria"
+    responsibilities:
+      - Node.js development with AWS Lambda, ECS, SQS, SNS
+      - DynamoDB, MySQL, ElasticSearch, CloudFormation, Serverless Framework
+      - CI/CD with CodePipeline/CodeBuild/CodeDeploy
+  
+  - period: "November 2012 - June 2016"
+    title: "Senior Developer"
+    company: "Comstream"
+    location: "Sofia, Bulgaria / Stockholm, Sweden"
+    responsibilities:
+      - Full-stack development with PHP, JavaScript/Node.js, Symfony
+      - MySQL, SOAP, REST APIs
+
+  - period: "April 2010 - September 2012"
+    title: "CTO / Technical Co-Founder"
+    company: "42soft"
+    location: "Plovdiv, Bulgaria"
+    responsibilities:
+      - Working on web based real-time strategy game.
+      - Tech lead, recruitment, team management, software architecture, community building
+
+  - period: "September 2009 - April 2010"
+    title: "Web Developer"
+    company: "Admin Corporation"
+    location: "Plovdiv, Bulgaria"
+    responsibilities:
+      - Working on online store in PHP with CodeIgniter
+
+# Technical Skills
+skills:
+  languages:
+    - Go/Golang
+    - JavaScript/TypeScript/Node.js
+    - Python
+    - PHP
+    - some java, rust, reactjs
+  
+  cloud_infrastructure:
+    - AWS
+    - GCP
+    - Kubernetes
+    - Docker
+    - Helm
+  
+  technologies_tools:
+    - Kafka
+    - ElasticSearch
+    - MySQL
+    - Postgres
+    - MongoDB
+    - DynamoDB
+    - Redis
+  
+  devops_cicd:
+    - Jenkins
+    - CircleCI
+    - Github Actions
+    - CloudFormation
+    - Serverless"
+    - terraform
+    - ansible
+    - nix
+
+# Education
+education:
+  - period: "2007 - 2009"
+    degree: "Computer Science"
+    institution: "Plovdiv University 'Paisii Hilendarski'"
+    location: "Plovdiv, Bulgaria"
+  
+  - period: "1996 - 2007"
+    degree: "High School"
+    institution: "German Language School"
+    location: "Ruse, Bulgaria"
+
+# Languages
+languages:
+  - language: "Bulgarian"
+    proficiency: "Native"
+
+  - language: "English"
+    proficiency: "Full Professional"
+
+  - language: "German"
+    proficiency: "Intermediate"
+
+  - language: "Swedish"
+    proficiency: "Elementary"
+
