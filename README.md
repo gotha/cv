@@ -1,18 +1,8 @@
-# CV Generator
+# CV - Hristo Georgiev
 
-A simple CV/Resume generator that uses YAML data and Jinja2 templates to produce web-ready HTML.
+This repository contains my CV in multiple formats and implementations.
 
-- `data/profile.yaml` - Your CV data in YAML format
-- `src/template.html` - Jinja2 HTML template
-- `src/generate.py` - Python script to generate the final HTML
-
-## Quick Start
-
-```bash
+```sh
 python src/generate.py data/profile.yaml > index.html
 ```
-
-## License
-
-This is a template project. Feel free to use and modify as needed.
 
