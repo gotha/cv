@@ -3,7 +3,7 @@
 This repository contains my CV
 
 ```sh
-python src/generate.py data/profile.yaml > index.html
+nix run .#generate
 ```
 
 View at [gotha.github.io/cv](https://gotha.github.io/cv/)

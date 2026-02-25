@@ -36,8 +36,7 @@ jobs:
           echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
       - name: Build HTML
-        run: |
-          nix develop --command python src/generate.py > index.html
+        run: nix run .#generate
 
       - name: Prepare deployment directory
         run: |
